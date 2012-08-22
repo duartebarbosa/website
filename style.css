@@ -1,0 +1,44 @@
+.body {
+	font-family: Sans-serif;
+	font-size:13px;
+	text-align : center;
+}
+
+.center {
+	margin-left : auto;
+	margin-right : auto;
+}
+
+p.quotes {
+	font-family: "Courier New", Monospace;
+	font-size: 12px;
+	text-align: right;
+	margin-right: 200px;
+}
+
+#title {
+	font-family: Sans-serif;
+	font-size:18px;
+	text-align : center;
+}
+
+#sub-title {
+	font-family: Sans-serif;
+	font-size:16px;
+	text-align : center;
+}
+
+#item {
+	font-size:14px;
+}
+
+#sub-item {
+	font-size:12px;
+}
+
+#copyright {
+	font-family: Sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align : center;
+}
