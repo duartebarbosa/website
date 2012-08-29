@@ -16,23 +16,23 @@ p.quotes {
 	margin-right: 200px;
 }
 
-#title {
+.title {
 	font-family: Sans-serif;
 	font-size:18px;
 	text-align : center;
 }
 
-#sub-title {
+.sub-title {
 	font-family: Sans-serif;
 	font-size:16px;
 	text-align : center;
 }
 
-#item {
+.item {
 	font-size:14px;
 }
 
-#sub-item {
+.sub-item {
 	font-size:12px;
 }
 
