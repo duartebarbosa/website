@@ -36,6 +36,14 @@ p.quotes {
 	font-size:12px;
 }
 
+.copyleft {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	display: inline-block;
+}
+
 #copyright {
 	font-family: Sans-serif;
 	font-size:12px;
