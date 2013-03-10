@@ -1,7 +1,3 @@
-function helper(txt){
-	document.getElementById("desc").innerHTML = txt;
-}
-						
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-21207838-2']);
   _gaq.push(['_trackPageview']);

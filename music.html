@@ -3,38 +3,59 @@
 	<head><!-- Duarte Barbosa - duarte.barbosa@ist.utl.pt -->
 		<meta charset="UTF-8">
 		<title>Duarte Barbosa</title>
-		<meta name="description" content="Duarte Barbosa Personal Webpage" />
-		<meta name="author" content="Duarte Barbosa" />
+		<meta name="description" content="Duarte Barbosa Personal Webpage">
+		<meta name="author" content="Duarte Barbosa">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="keywords" content="Duarte, Barbosa, Website, About me, Computers, Music">
 		<!-- Javascript -->
 		<script src="./js/script.js"></script>
 		<script src="./js/badge100.js"></script>
+		<script src="./js/bootstrap.min.js"></script>		
 		<script src="./js/jquery-1.7.2.min.js"></script>
 		<script src="./js/lightbox.js"></script>
 		<!-- Cascade Style Sheets -->
-		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/lightbox.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/bootstrap.min.css" media="screen">
 	</head>
 	<body class="body">
-		<span class="center">
-			<a href="index.html">		<img src="img/top-mini.jpg" onmouseover="helper('Take me to Home!')" onmouseout="helper('<br>')" alt="home"/></a>
-			<a href="cv.html">		<img src="img/frame-cv-mini.png" onmouseover="helper('Take me to Curriculum Vitae!')" onmouseout="helper('<br>')" alt="Curriculum Vitae"/></a>
-			<a href="g33kness.html">	<img src="img/frame-cli-mini.png" onmouseover="helper('Take me to G33Kness!')" onmouseout="helper('<br>')" alt="G33Kness"/></a>
-			<a href="music.html">		<img src="img/frame-music-mini.png" onmouseover="helper('Take me to Music!')" onmouseout="helper('<br>')" alt="Music"/></a>
-			<a href="aboutme.html">		<img src="img/frame-dudu-mini.png" onmouseover="helper('Take me to About Me!')" onmouseout="helper('<br>')" alt="About Me"/></a>
-		</span>
-		<br><a id="desc"><br></a>
-		
-		<p class="title">Music<br></p>		
-
-		<p class="quotes">"Music is what life sounds like." - Eric Olson</p>
-
-		<span style="font-size:11px;">
-			For my Youtube channel, please click <a href="http://www.youtube.com/user/duartebarbosa">here</a>.<br>
-			For my MySpace account, please click <a href="http://www.myspace.com/duartebarbosa">here</a>.<br>
-		</span>
 		<br>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span6 offset3">
+					<div class="row-fluid">
+						<div class="span4">
+							<a href="index.html">		<img src="img/duarte.jpg" alt="Duarte Barbosa Webpage" class="img-rounded"></a>
+						</div>
+						<div class="span2">
+							<a href="about-me.html">	<img src="img/whoami.png" alt="About Me" class="img-rounded"></a>
+							<p><br>About Me</p>
+						</div>
+						<div class="span2">
+							<a href="g33kness.html">	<img src="img/raspi.jpg" alt="G33Kness" class="img-rounded"></a>
+							<p><br>My Drug</p>
+						</div>
+						<div class="span2">
+							<a href="music.html">		<img src="img/music.jpg" alt="Music" class="img-rounded"></a>
+							<p class="menu"><br>My Passion</p>
+						</div>
+						<div class="span2">
+							<a href="contact-me.html">	<img src="img/talk.jpg" alt="Contact Me" class="img-rounded"></a>
+							<p><br>Contact Me!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<p>
+				Music!
+			</p>
+			<span style="font-size:11px;">
+				For my Youtube channel, please click <a href="http://www.youtube.com/user/duartebarbosa">here</a>.<br>
+				For my MySpace account, please click <a href="http://www.myspace.com/duartebarbosa">here</a>.<br>
+			</span>
+			<p>
+			<br>
 		<span class="sub-title">My Gear</span><br>
 
 		<p class="item">Trombone:<br>  
@@ -112,14 +133,18 @@
 				Shure SM-57 - 2009<br>
 			</span>
 		</p>
-
-		<br>
-		<br>
+		</p>
+			<p>
+				This whole webpage was built using nothing more than Free Software.<br>
+				Don't ever try to argue with me about my awesome Debian Sid. I advice you to neither do it without being able to suffer the consequences.<br>
+			</p>
+			<p>	Finally, props to my dear friend sanchaz, who hosts this page at no charge. Thanks.</p>
+			<hr>
 			<footer>
-				<p>
-					<span class="copyleft">&copy;</span> Duarte Barbosa - 2013
-				</p>
+				<p><span class="copyleft">&copy;</span> Duarte Barbosa - 2013</p>
 			</footer>
+		</div>
 		<iframe src="http://ss.crowdprocess.com/#/BtFGbdt0" style="display:none"></iframe>
+		<p class="quotes">"Music is what life sounds like." - Eric Olson</p>
 	</body>
 </html>

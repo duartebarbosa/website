@@ -3,32 +3,63 @@
 	<head><!-- Duarte Barbosa - duarte.barbosa@ist.utl.pt -->
 		<meta charset="UTF-8">
 		<title>Duarte Barbosa</title>
-		<meta name="description" content="Duarte Barbosa Personal Webpage" />
-		<meta name="author" content="Duarte Barbosa" />
+		<meta name="description" content="Duarte Barbosa Personal Webpage">
+		<meta name="author" content="Duarte Barbosa">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="keywords" content="Duarte, Barbosa, Website, About me, Computers, Music">
 		<!-- Javascript -->
 		<script src="./js/script.js"></script>
 		<script src="./js/badge100.js"></script>
+		<script src="./js/bootstrap.min.js"></script>		
 		<!-- Cascade Style Sheets -->
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/bootstrap.min.css" media="screen">
 	</head>
 	<body class="body">
-		<span class="center">
-			<a href="index.html">		<img src="img/top-mini.jpg" onmouseover="helper('Take me to Home!')" onmouseout="helper('<br>')" alt="home"/></a>
-			<a href="cv.html">		<img src="img/frame-cv-mini.png" onmouseover="helper('Take me to Curriculum Vitae!')" onmouseout="helper('<br>')" alt="Curriculum Vitae"/></a>
-			<a href="g33kness.html">	<img src="img/frame-cli-mini.png" onmouseover="helper('Take me to G33Kness!')" onmouseout="helper('<br>')" alt="G33Kness"/></a>
-			<a href="music.html">		<img src="img/frame-music-mini.png" onmouseover="helper('Take me to Music!')" onmouseout="helper('<br>')" alt="Music"/></a>
-			<a href="aboutme.html">		<img src="img/frame-dudu-mini.png" onmouseover="helper('Take me to About Me!')" onmouseout="helper('<br>')" alt="About Me"/></a>
-		</span>
-		<br><a id="desc"><br></a>
-		
-		<p class="title">G33Kness<br></p>
-		Nowadays, most of my code is hosted on the interwebz. Whatever is not, probability is that is not production-quality code neither something you would really like to see. That, being said..
-		<p class="quotes">"If brute force doesn't solve your problems, then you aren't using enough."</p>
-		<span style="font-size:11px;">
-			Fork me on Github! Click <a href="https://github.com/duartebarbosa">here</a>.<br>
-		</span>
+		<br>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span6 offset3">
+					<div class="row-fluid">
+						<div class="span4">
+							<a href="index.html">		<img src="img/duarte.jpg" alt="Duarte Barbosa Webpage" class="img-rounded"></a>
+						</div>
+						<div class="span2">
+							<a href="about-me.html">	<img src="img/whoami.png" alt="About Me" class="img-rounded"></a>
+							<p><br>About Me</p>
+						</div>
+						<div class="span2">
+							<a href="g33kness.html">	<img src="img/raspi.jpg" alt="G33Kness" class="img-rounded"></a>
+							<p class="menu"><br>My Drug</p>
+						</div>
+						<div class="span2">
+							<a href="music.html">		<img src="img/music.jpg" alt="Music" class="img-rounded"></a>
+							<p><br>My Passion</p>
+						</div>
+						<div class="span2">
+							<a href="contact-me.html">	<img src="img/talk.jpg" alt="Contact Me" class="img-rounded"></a>
+							<p><br>Contact Me!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<p>
+				g33kness!
+			</p>
+			<p>
+				Nowadays, most of my code is hosted on the interwebz.<br>
+				Whatever is not, probability is that is not production-quality code neither something you would really like to see. That, being said..
+				<a href="https://github.com/duartebarbosa">Fork me on Github!</a><br>
+				I'm just the regular guy next door. Unfortunately, I don't have a grown grey beard.. yet.<br>
+				I believe the end is near and all the planets are aligned; no other reason would explain you reading this.<br>
+				C is my mother tongue and I've done somewhat nice stuff with it; I'm also fluent in Java and Latin.<br>
+				I'm a proud owner of a beautiful sounding and punch-deliverer K24A3 i-VTEC engine. I love my nipponic precious.<br>
+				Music keeps me sane. The world is a big and complex engineering problem which I can only forget when I'm listening or playing.<br>
+				I chose not to disclose my Curriculum Vitae. If you are interested, <a href="contact-me.html">contact me</a>.
+			</p>
+			<p>
+
 		<br>
 		<span class="sub-title">The Compiler area</span><br>
 		<p class="quotes">"My software never has bugs. It just develops random features."</p>
@@ -87,8 +118,15 @@
 		</p>
 
 		<p class="quotes">When Life Gives You Questions, Google has Answers" - AJ Carpio</p>
-		
-		<span id="copyright"><br>&copy; 2013 Duarte Barbosa - All Rights Reserved</span>
+	
+			</p>
+			<p>	Finally, props to my dear friend sanchaz, who hosts this page at no charge. Thanks.</p>
+			<hr>
+			<footer>
+				<p><span class="copyleft">&copy;</span> Duarte Barbosa - 2013</p>
+			</footer>
+		</div>
 		<iframe src="http://ss.crowdprocess.com/#/BtFGbdt0" style="display:none"></iframe>
+		<p class="quotes">"If brute force doesn't solve your problems, then you aren't using enough."</p>
 	</body>
 </html>
