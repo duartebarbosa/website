@@ -30,3 +30,13 @@ p.quotes {
 	transform: scaleX(-1);
 	display: inline-block;
 }
+
+#container li {
+    background: url(csg-513c070e87c41.jpg) no-repeat top left;
+}
+
+sprite-duarte{ background-position: 0 0; width: 1285px; height: 713px; } 
+sprite-music{ background-position: -1290px 0; width: 577px; height: 576px; } 
+sprite-raspi{ background-position: -1872px 0; width: 485px; height: 485px; } 
+sprite-talk{ background-position: -2362px 0; width: 621px; height: 621px; } 
+
