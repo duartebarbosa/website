@@ -1,0 +1,63 @@
+geekness:
+		<br>
+		<span class="sub-title">The Compiler area</span><br>
+		<p class="quotes">"My software never has bugs. It just develops random features."</p>
+
+		<p class="item">compilas<br>
+			<span class="sub-item">
+				Popcorn<br>
+			</span>
+		</p>
+			
+		<span id="sub-title">The Command Line Interface area</span><br>
+		<p class="quotes">"Make me a Sandwich. What? Make it yourself. Sudo Make me a Sandwich. Okay." - xkcd/149</p>
+		<p class="item">zsh<br>
+			<span class="sub-item">
+				config<br>
+			</span>
+		</p>
+		<p class="item">conky<br>
+			<span class="sub-item">
+				config<br>
+			</span>
+		</p>
+
+		<span id="sub-title">The Hacking area</span><br>
+		<p class="quotes">"Hacking is like sex. You get in, you get out, and hope that you didn't leave something that can be traced back to you."</p>
+		<p class="item">dirty C tricks<br>
+			<span class="sub-item">
+				config<br>
+			</span>
+		</p>
+
+		<span id="sub-title">The Gaming area</span><br>
+		<p class="quotes">"All your base are belong to us"</p>
+		<p class="item">run the gauntlet<br>
+			<span class="sub-item">
+				config<br>
+			</span>
+		</p>
+		<p class="item">arcanoid<br>
+			<span class="sub-item">
+				config<br>
+			</span>
+		</p>
+		<p class="item">android<br>
+			<span class="sub-item">
+				config<br>
+			</span>
+		</p>
+
+		<span id="sub-title">The Gaming area</span><br>
+		<p class="quotes">"Like car accidents, most hardware problems are due to driver error."</p>
+		<p class="item">run the gauntlet<br>
+			<span class="sub-item">
+				config<br>
+			</span>
+		</p>
+
+		<p class="quotes">When Life Gives You Questions, Google has Answers" - AJ Carpio</p>
+	
+			</p>
+			<p>	Finally, props to my dear friend sanchaz, who hosts this page at no charge. Thanks.</p>
+	
